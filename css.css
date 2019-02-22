@@ -97,6 +97,7 @@ img {
     font-size: 1.1em;
 }
 
+/*added this to fix problem where dot wouldn't close on mobile; helped by Julia Wolfe*/
 .dot.active .close {
     z-index: 20;
 }
